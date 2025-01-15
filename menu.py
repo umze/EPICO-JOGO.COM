@@ -51,7 +51,7 @@ for i in range(99999999):
         input()
         exit()
     print("Carregando....")
-    os.system("python3 jogo.py")
+    os.system("python jogo.py")
     print()
     print("Digite nada para reiniciar | 2 para sair")
     escolha = input("")
