@@ -427,7 +427,7 @@ def parte1():
         input()
         exit()
     print("Executando arquivo 'matematica.py'...")
-    os.system("python3 matematica.py")
+    os.system("python matematica.py")
     arquivo = open("save.txt", "r")
     conteudo = arquivo.read()
     if conteudo == "feito = 2" or conteudo == "feito = 0" or conteudo == "":
